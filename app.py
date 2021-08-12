@@ -19,7 +19,7 @@ st.title("Bank Customers Churn Prediction App")
 st.markdown( "This app aims to predict **customer churn**. The model is trained with the Credit Card customers dataset on [Kaggle](https://www.kaggle.com/sakshigoyal7/credit-card-customers).")
 st.markdown("For more info: [Check GitHub](https://github.com/c-morey/Churn-Prediction-Classification)")
 
-st.image('/Users/cerenmorey/Desktop/At-risk-customers.png')
+st.image('./At-risk-customers.png')
 
 data_url = "./Bank_Churners_Clean.csv"
 data_unclean_url = "./BankChurners.csv"

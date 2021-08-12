@@ -21,8 +21,8 @@ st.markdown("For more info: [Check GitHub](https://github.com/c-morey/Churn-Pred
 
 st.image('/Users/cerenmorey/Desktop/At-risk-customers.png')
 
-data_url = "./data/Bank_Churners_Clean.csv"
-data_unclean_url = "./data/BankChurners.csv"
+data_url = "./Bank_Churners_Clean.csv"
+data_unclean_url = "./BankChurners.csv"
 
 # Creating a side bar for users to explore
 st.sidebar.markdown("## Side Bar")

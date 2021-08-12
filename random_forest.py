@@ -8,7 +8,7 @@ from sklearn.metrics import plot_confusion_matrix,classification_report, accurac
 
 
 
-df = pd.read_csv('./data/Bank_Churners_Clean.csv')
+df = pd.read_csv('Bank_Churners_Clean.csv')
 df.info()
 # Convert target variable to dummy variables
 df['Attrition_Flag']= df['Attrition_Flag'].replace({"Existing Customer":0, "Attrited Customer":1})

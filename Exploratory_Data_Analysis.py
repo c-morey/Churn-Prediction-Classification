@@ -103,3 +103,4 @@ cramer_matrix = pd.DataFrame(np.array(rows), columns = df_cat.columns, index = d
 print("Cramer matrix")
  # check the dataframe
 print(cramer_matrix)
+

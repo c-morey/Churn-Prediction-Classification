@@ -16,7 +16,7 @@ from sklearn.metrics import plot_confusion_matrix, classification_report, accura
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("Bank Customers Churn Prediction App")
-st.markdown( "This app aims to predict customer churn. The model is trained with the Credit Card customers dataset on [Kaggle](https://www.kaggle.com/sakshigoyal7/credit-card-customers).")
+st.markdown( "This app aims to predict **customer churn**. The model is trained with the Credit Card customers dataset on [Kaggle](https://www.kaggle.com/sakshigoyal7/credit-card-customers).")
 st.markdown("For more info: [Check GitHub](https://github.com/c-morey/Churn-Prediction-Classification)")
 
 st.image('/Users/cerenmorey/Desktop/At-risk-customers.png')

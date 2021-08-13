@@ -6,4 +6,3 @@ This repository provides a Random Forest Classification model to predict custome
 
 ### Files
 
--app.py : Is the file to 

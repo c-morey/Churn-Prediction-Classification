@@ -4,7 +4,7 @@ This repository provides a Random Forest Classification model to predict custome
 
 ### Installation
 - Clone the repo. 
-- To run in your local system, install the dependencies and mentioned below and run the following command: 
+- To run in your local system, install the dependencies mentioned below and run the following command: 
 ``` streamlit run app.py ```
 
 ### Dependencies

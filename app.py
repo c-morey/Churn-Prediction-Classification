@@ -78,7 +78,7 @@ if st.sidebar.checkbox('Data Visualization'):
         st.info("If error, please adjust column name on side panel.")
         if st.checkbox('Dist plot'):
             column_dist_plot = st.sidebar.selectbox(
-                "Optional categorical variables (countplot hue). Try Selecting Body Mass", df.columns)
+                "Optional categorical variables (countplot hue)", df.columns)
         fig = sns.distplot(df[column_dist_plot])
         st.pyplot()
 
